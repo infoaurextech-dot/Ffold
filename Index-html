@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Old Free Fire APK Download (64-bit) | FF NEWS HQ</title>
+<meta name="description" content="Download the archived Old Free Fire APK (AzyntMobile_64bit.apk) directly from FF NEWS HQ." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --white: #ffffff;
+    --surface: #f7f6f2;
+    --surface-line: #e9e7df;
+    --ink: #17181c;
+    --ink-soft: #55585f;
+    --yellow: #ffc700;
+    --yellow-deep: #d99c00;
+    --yellow-ink: #3a2a00;
+    --ember: #ff7a1a;
+    --good: #1f8a4c;
+    --warn-line: #e0a30b;
+    --warn-bg: #fff8e3;
+    --font-display: "Orbitron", "Rajdhani", sans-serif;
+    --font-body: "Rajdhani", "Exo 2", sans-serif;
+    --radius-card: 18px;
+    --radius-pill: 999px;
+    --radius-tight: 10px;
+    --shadow-card: 0 1px 0 rgba(23, 24, 28, .04), 0 12px 24px -18px rgba(23, 24, 28, .35);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  @media (prefers-reduced-motion: reduce) { * { animation-duration: .001ms !important; transition-duration: .001ms !important; } }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+  h1, h2 { font-family: var(--font-display); font-weight: 700; line-height: 1.15; margin: 0 0 .5em; letter-spacing: .01em; }
+  p { max-width: 62ch; }
+  :focus-visible { outline: 3px solid var(--yellow-deep); outline-offset: 2px; }
+
+  /* ---------- intro loading screen ---------- */
+  #intro {
+    position: fixed; inset: 0; z-index: 999;
+    background: radial-gradient(circle at 50% 30%, #1a1c22 0%, #0c0d10 65%, #08090b 100%);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 26px; padding: 24px; text-align: center;
+    transition: opacity .6s ease, visibility .6s ease;
+  }
+  #intro.hide { opacity: 0; visibility: hidden; pointer-events: none; }
+  #intro .logo-ring {
+    width: 132px; height: 132px; border-radius: 50%; overflow: hidden;
+    box-shadow: 0 0 0 3px rgba(255,199,0,.35), 0 0 50px rgba(255,122,26,.35);
+    animation: pulse-logo 1.8s ease-in-out infinite;
+    display: flex; align-items: center; justify-content: center;
+    background: #111318;
+  }
+  #intro .logo-ring svg { width: 80px; height: 80px; }
+  @keyframes pulse-logo {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 3px rgba(255,199,0,.35), 0 0 50px rgba(255,122,26,.35); }
+    50% { transform: scale(1.04); box-shadow: 0 0 0 5px rgba(255,199,0,.55), 0 0 70px rgba(255,122,26,.55); }
+  }
+  #intro .brand-word {
+    font-family: var(--font-display); font-weight: 700; color: #fff;
+    font-size: 1.4rem; letter-spacing: .06em;
+  }
+  #intro .brand-word span { color: var(--yellow); }
+  #intro-track {
+    width: 240px; height: 6px; border-radius: 999px; background: rgba(255,255,255,.12); overflow: hidden;
+  }
+  #intro-fill {
+    height: 100%; width: 0%; border-radius: 999px;
+    background: linear-gradient(90deg, var(--yellow) 0%, var(--ember) 100%);
+    transition: width .1s linear;
+  }
+  #intro-label { color: rgba(255,255,255,.65); font-size: .85rem; letter-spacing: .03em; }
+
+  main { transition: opacity .5s ease; }
+  main.pre-intro { opacity: 0; }
+
+  /* ---------- top bar ---------- */
+  .topbar { border-bottom: 1px solid var(--surface-line); background: var(--white); }
+  .topbar-inner { display: flex; align-items: center; gap: 10px; padding: 14px 20px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; color: var(--ink); }
+  .brand-logo-icon { width: 34px; height: 34px; border-radius: 9px; background: #17181c; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 56px 0 36px; text-align: center; }
+  .eyebrow-tag { display: inline-flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--surface-line); border-radius: var(--radius-pill); padding: 6px 14px; font-size: .85rem; font-weight: 600; color: var(--ink-soft); margin-bottom: 22px; }
+  .eyebrow-tag .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
+  .hero h1 { font-size: clamp(2rem, 6vw, 3.1rem); margin-bottom: 14px; }
+  .hero .lede { margin: 0 auto 30px; color: var(--ink-soft); font-size: 1.1rem; max-width: 46ch; }
+
+  .cta-stage { display: inline-flex; flex-direction: column; align-items: center; gap: 12px; min-height: 120px; justify-content: center; width: 100%; }
+
+  .btn-download {
+    font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: .02em;
+    color: var(--yellow-ink); background: linear-gradient(180deg, #ffd230 0%, var(--yellow) 55%, var(--yellow-deep) 100%);
+    border: none; border-radius: var(--radius-pill); padding: 18px 44px; cursor: pointer;
+    box-shadow: 0 14px 30px -12px rgba(217,156,0,.65); transition: transform .15s ease, box-shadow .15s ease;
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+  }
+  .btn-download:hover { transform: translateY(-2px); box-shadow: 0 18px 34px -12px rgba(217,156,0,.75); }
+  .btn-download:disabled { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
+
+  .generating { display: flex; flex-direction: column; align-items: center; gap: 10px; width: 100%; }
+  .spinner {
+    width: 34px; height: 34px; border-radius: 50%;
+    border: 3px solid var(--surface-line); border-top-color: var(--yellow-deep);
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .generating-label { color: var(--ink-soft); font-size: .95rem; font-weight: 600; }
+
+  .download-meta { font-size: .88rem; color: var(--ink-soft); margin-top: 4px; }
+  .progress-shell { width: 100%; max-width: 320px; margin-top: 4px; }
+  .progress-track { height: 8px; background: var(--surface); border: 1px solid var(--surface-line); border-radius: var(--radius-pill); overflow: hidden; }
+  .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--yellow) 0%, var(--ember) 100%); transition: width .2s ease; }
+  .progress-label { font-size: .8rem; color: var(--ink-soft); margin-top: 6px; text-align: center; }
+  .download-status { font-size: .9rem; margin-top: 6px; min-height: 1.2em; font-weight: 600; }
+  .download-status[data-state="error"] { color: #b3261e; }
+  .download-status[data-state="ok"] { color: var(--good); }
+
+  .manual-fallback { margin-top: 10px; font-size: 0.9rem; color: var(--ink-soft); display: none; }
+  .manual-fallback a { color: var(--ember); font-weight: 700; text-decoration: underline; }
+
+  /* ---------- info card ---------- */
+  .section { padding: 32px 0; }
+  .card { background: var(--white); border: 1px solid var(--surface-line); border-radius: var(--radius-card); box-shadow: var(--shadow-card); padding: 26px; }
+  .info-card h2 { font-size: 1.3rem; margin-bottom: 18px; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; }
+  @media (min-width: 560px) { .info-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .info-item dt { font-size: .78rem; color: var(--ink-soft); margin-bottom: 3px; text-transform: uppercase; letter-spacing: .05em; }
+  .info-item dd { margin: 0; font-weight: 700; font-size: 1rem; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; background: #eafaf1; color: var(--good); border-radius: var(--radius-pill); padding: 3px 12px; font-weight: 700; font-size: .85rem; }
+  .warning-banner { margin-top: 22px; border: 1px solid var(--warn-line); background: var(--warn-bg); border-radius: var(--radius-tight); padding: 14px 16px; font-size: .92rem; color: #5a4200; display: flex; gap: 10px; align-items: flex-start; }
+  .warning-banner svg { flex-shrink: 0; margin-top: 2px; }
+
+  footer { margin-top: 50px; border-top: 1px solid var(--surface-line); background: var(--surface); padding: 34px 0 26px; }
+  .footer-brand { font-family: var(--font-display); font-weight: 700; margin-bottom: 4px; }
+  .footer-tagline { color: var(--ink-soft); font-size: .92rem; margin-bottom: 18px; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0; margin: 0 0 16px; list-style: none; font-size: .92rem; }
+  .footer-links a { text-decoration: none; color: var(--ink-soft); }
+  .footer-links a:hover { color: var(--ink); }
+  .footer-support, .footer-copy { font-size: .85rem; color: var(--ink-soft); }
+  .footer-copy { margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<!-- ================= INTRO / LOADING SCREEN ================= -->
+<div id="intro" role="status" aria-live="polite">
+  <div class="logo-ring">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#ffc700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+    </svg>
+  </div>
+  <div class="brand-word">FF NEWS <span>HQ</span></div>
+  <div id="intro-track">
+    <div id="intro-fill"></div>
+  </div>
+  <div id="intro-label">Loading Secure Server...</div>
+</div>
+
+<!-- ================= MAIN CONTENT ================= -->
+<main class="pre-intro">
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#" class="brand">
+        <div class="brand-logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffc700" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <span>FF NEWS HQ</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero wrap">
+    <div class="eyebrow-tag">
+      <span class="dot"></span>
+      <span>Verified 64-bit Architecture</span>
+    </div>
+    <h1>Old Free Fire APK Download</h1>
+    <p class="lede">Download the archived Old Free Fire APK (AzyntMobile_64bit.apk) directly &amp; safely from FF NEWS HQ.</p>
+
+    <!-- Download CTA Stage -->
+    <div class="cta-stage">
+      <button id="download-btn" class="btn-download" onclick="startDownloadSequence()">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <span>DOWNLOAD APK (64-BIT)</span>
+      </button>
+
+      <!-- Generating State Container -->
+      <div id="generating-box" class="generating" style="display: none;">
+        <div class="spinner"></div>
+        <div class="generating-label" id="generating-text">Generating Download Link...</div>
+        <div class="progress-shell">
+          <div class="progress-track">
+            <div id="download-progress-fill" class="progress-fill"></div>
+          </div>
+          <div id="download-progress-label" class="progress-label">0%</div>
+        </div>
+      </div>
+
+      <div id="download-status" class="download-status"></div>
+      <div id="manual-fallback" class="manual-fallback">
+        If download does not start automatically, <a id="direct-mediafire-link" href="https://www.mediafire.com/file/d4p80hv785ho00c/AzyntMobile_64bit.apk/file?dkey=t5fjozaxw5v&r=1388" target="_blank" rel="noopener">Click Here to Download from MediaFire</a>.
+      </div>
+      <div class="download-meta">File Name: AzyntMobile_64bit.apk &bull; Size: ~65 MB &bull; Safe &amp; Clean</div>
+    </div>
+  </section>
+
+  <!-- Info Specifications Section -->
+  <section class="section wrap">
+    <div class="card info-card">
+      <h2>App Specifications</h2>
+      <dl class="info-grid">
+        <div class="info-item">
+          <dt>App Name</dt>
+          <dd>Old Free Fire (64-bit)</dd>
+        </div>
+        <div class="info-item">
+          <dt>Package Name</dt>
+          <dd>AzyntMobile_64bit.apk</dd>
+        </div>
+        <div class="info-item">
+          <dt>Architecture</dt>
+          <dd>arm64-v8a (64-bit)</dd>
+        </div>
+        <div class="info-item">
+          <dt>Requirements</dt>
+          <dd>Android 5.0+</dd>
+        </div>
+        <div class="info-item">
+          <dt>Security</dt>
+          <dd><span class="badge">&check; Verified Clean</span></dd>
+        </div>
+        <div class="info-item">
+          <dt>Source</dt>
+          <dd>MediaFire Mirror</dd>
+        </div>
+      </dl>
+
+      <div class="warning-banner">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+          <line x1="12" y1="9" x2="12" y2="13"></line>
+          <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+        <div>
+          <strong>Installation Note:</strong> Enable "Install from Unknown Sources" in your device settings prior to installing the APK. This file is provided for archival and educational testing purposes.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-brand">FF NEWS HQ</div>
+      <div class="footer-tagline">Your trusted portal for Free Fire news, updates, and archived resources.</div>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Disclaimer</a></li>
+      </ul>
+      <div class="footer-support">Support &amp; Inquiries: contact@ffnewshq.com</div>
+      <div class="footer-copy">&copy; 2026 FF NEWS HQ. All rights reserved.</div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  // 1. Intro Screen Handler
+  window.addEventListener('DOMContentLoaded', () => {
+    const fill = document.getElementById('intro-fill');
+    const label = document.getElementById('intro-label');
+    const intro = document.getElementById('intro');
+    const main = document.querySelector('main');
+
+    let progress = 0;
+    const interval = setInterval(() => {
+      progress += 5;
+      if (fill) fill.style.width = progress + '%';
+      if (progress >= 100) {
+        clearInterval(interval);
+        if (label) label.innerText = 'Ready!';
+        setTimeout(() => {
+          if (intro) intro.classList.add('hide');
+          if (main) main.classList.remove('pre-intro');
+        }, 300);
+      }
+    }, 50);
+  });
+
+  // 2. Download Sequence Handler
+  const MEDIAFIRE_URL = "https://www.mediafire.com/file/d4p80hv785ho00c/AzyntMobile_64bit.apk/file?dkey=t5fjozaxw5v&r=1388";
+
+  function startDownloadSequence() {
+    const btn = document.getElementById('download-btn');
+    const genBox = document.getElementById('generating-box');
+    const progressFill = document.getElementById('download-progress-fill');
+    const progressLabel = document.getElementById('download-progress-label');
+    const status = document.getElementById('download-status');
+    const fallback = document.getElementById('manual-fallback');
+
+    btn.style.display = 'none';
+    genBox.style.display = 'flex';
+    status.setAttribute('data-state', '');
+    status.innerText = '';
+
+    let pct = 0;
+    const downloadTimer = setInterval(() => {
+      pct += 4;
+      if (progressFill) progressFill.style.width = pct + '%';
+      if (progressLabel) progressLabel.innerText = pct + '%';
+
+      if (pct >= 100) {
+        clearInterval(downloadTimer);
+        genBox.style.display = 'none';
+        btn.style.display = 'inline-flex';
+        btn.innerHTML = '<span>RE-DOWNLOAD APK</span>';
+        
+        status.setAttribute('data-state', 'ok');
+        status.innerText = '✔ Redirecting to download...';
+        fallback.style.display = 'block';
+
+        // Redirect / Open MediaFire link
+        window.open(MEDIAFIRE_URL, '_blank');
+      }
+    }, 80);
+  }
+</script>
+
+</body>
+</html>
+
